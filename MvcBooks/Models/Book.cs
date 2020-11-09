@@ -15,7 +15,7 @@ namespace MvcBooks.Models
         public string Title { get; set; }
 
         [Display(Name = "Release Date")]
-        [DataType(DataType.DateTime)]
+        [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
         //[RegularExpression(@"^[A-Z]+[a-zA-Z]*$")]
         [Required]
